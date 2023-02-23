@@ -43,7 +43,6 @@ class Stack:
     last_income_media_group_id: Optional[str] = field(
         compare=False, default=None,
     )
-    key: Optional[str] = field(compare=False, default=None)
 
     @property
     def id(self):
